@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+</head>
+<body style="margin:0; padding:0; box-sizing:border-box; font-family:'Segoe UI', sans-serif; background: linear-gradient(to right, #dfe9f3, #ffffff); display:flex; justify-content:center; align-items:center; height:100vh;">
+    <div style="background:white; padding:2rem; border-radius:12px; box-shadow:0 8px 20px rgba(0, 0, 0, 0.15); width:100%; max-width:400;">
+        <h1 style="text-align:center; margin-bottom:1.5rem; color:#333;">My To-Do List</h1>
+
+        <ul style="list-style:none; padding:0;">
+            <li style="margin-bottom:1rem;">
+                <label style="display:flex; align-items:center; cursor:pointer;">
+                    <input type="checkbox" onclick="this.nextElementSibling.style.backgroundColor = this.checked ? '#cfc' : '#eee'; this.parentElement.lastElementChild.style.textDecoration = this.checked ? 'line-through' : 'none'; this.parentElement.lastElementChild.style.color = this.checked ? '#999' : '#444';" style="display:none;">
+                    <span style="height:20px; width:20px; background-color:#eee; border-radius:4px; margin-right:10px;position:relative;"></span>
+                    <span style="font-size:1rem; color:#444;">Finish my HTML & CSS project</span>
+                </label>
+            </li>
+
+            <li style="margin-bottom:1rem;">
+                <label style="display:flex; align-items:center; cursor:pointer;">
+                    <input type="checkbox" onclick="this.nextElementSibling.style.backgroundColor = this.checked ? '#cfc' : '#eee'; this.parentElement.lastElementChild.style.textDecoration = this.checked ? 'line-through' : 'none'; ths.parentElement.lastElementChild.style.color = this.checked ? '#999' : '#444';" style="display:none;">
+                    <span style="height:20px; width:20px; background-color:#eee; border-radius:4px; margin-right:10px; position:relative;"></span>
+                    <span style="font-size:1rem; color:#444;">Take a coffee break</span>
+                </label>
+            </li>
+
+            <li style="margin-bottom:1rem;">
+                <label style="display:flex; align-items:center; cursor:pointer;">
+                    <input type="checkbox" onclick="this.nextElementSibling.style.backgroundColor = this.checked ? '#cfc' : '#eee'; this.parentElement.lastElementChild.style.textDecoration = this.checked ? 'line-through' : 'none'; ths.parentElement.lastElementChild.style.color = this.checked ? '#999' : '#444';" style="display:none;">
+                    <span style="height:20px; width:20px; background-color:#eee; border-radius:4px; margin-right:1opx; position:relative;"></span>
+                    <span style="font-size:1rem; color:#444;">Read a tech article</span>
+                </label>
+            </li>
+        </ul>
+    </div>
+
+    
+</body>
+</html>
